@@ -11,7 +11,8 @@
 		1E67784628F3464700B265DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67784528F3464700B265DA /* ContentView.swift */; };
 		1E67784828F3464800B265DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E67784728F3464800B265DA /* Assets.xcassets */; };
 		1E67784B28F3464800B265DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E67784A28F3464800B265DA /* Preview Assets.xcassets */; };
-		1E67785428F60BC100B265DA /* OfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67785328F60BC100B265DA /* OfferView.swift */; };
+		1E67785428F60BC100B265DA /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67785328F60BC100B265DA /* Offer.swift */; };
+		1E67785628F61C2B00B265DA /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67785528F61C2B00B265DA /* OffersPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		1E67784528F3464700B265DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E67784728F3464800B265DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E67784A28F3464800B265DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1E67785328F60BC100B265DA /* OfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferView.swift; sourceTree = "<group>"; };
+		1E67785328F60BC100B265DA /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		1E67785528F61C2B00B265DA /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 				1E67784528F3464700B265DA /* ContentView.swift */,
 				1E67784728F3464800B265DA /* Assets.xcassets */,
 				1E67784928F3464800B265DA /* Preview Content */,
-				1E67785328F60BC100B265DA /* OfferView.swift */,
+				1E67785328F60BC100B265DA /* Offer.swift */,
+				1E67785528F61C2B00B265DA /* OffersPage.swift */,
 			);
 			path = CoffeeMasters;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E67784628F3464700B265DA /* ContentView.swift in Sources */,
-				1E67785428F60BC100B265DA /* OfferView.swift in Sources */,
+				1E67785628F61C2B00B265DA /* OffersPage.swift in Sources */,
+				1E67785428F60BC100B265DA /* Offer.swift in Sources */,
 				1E67784428F3464700B265DA /* CoffeeMastersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
