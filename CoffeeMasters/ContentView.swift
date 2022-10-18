@@ -11,9 +11,29 @@ struct ContentView: View {
     @State var name: String = ""
     
     var body: some View {
-        VStack {
-            TextField("Enter Your Name", text: $name)
-            Text("Name: \(name)")
+        TabView {
+            MenuPage()
+                .tabItem {
+                    Image(systemName: "cup.and.saucer")
+                    Text("Menu")
+                }
+        
+        OffersPage()
+            .tabItem {
+                Image(systemName: "tag")
+                Text("Offers")
+            }
+            OrdersPage()
+                .tabItem {
+                Image(systemName: "cart")
+                Text("Order")
+            }
+            InfoPage()
+                .tabItem {
+                    Image(systemName: "info")
+                    Text("Info")
+                }
+            
         }
     }
 }
